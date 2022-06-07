@@ -1,20 +1,19 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * main - Prints Holberton as a message.
- *
- * Return: Always 0 (Success)
- */
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
+	char henok[] = "_putchar";
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(str[count]);
+		_putchar(ermias[c]);
 	}
 	_putchar('\n');
 	return (0);
-}
+}	
