@@ -6,7 +6,7 @@
  **/
 int main(void)
 {
-	char henok[] = "_putchar";
+	char ermias[] = "_putchar";
 
 	int c;
 
@@ -16,4 +16,4 @@ int main(void)
 	}
 	_putchar('\n');
 	return (0);
-}	
+}
